@@ -2,7 +2,7 @@
 import openai
 from src.preprocess.preprocessing import employee_performance
 
-openai.api_key = "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"
+openai.api_key = ""
 def get_feedback(text_summary):
     try:
         response = openai.ChatCompletion.create(
