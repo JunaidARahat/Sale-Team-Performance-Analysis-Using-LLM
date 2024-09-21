@@ -1,8 +1,11 @@
 
+
 import openai
 from src.preprocess.preprocessing import employee_performance
 
 openai.api_key = ""
+
+
 def get_feedback(text_summary):
     try:
         response = openai.ChatCompletion.create(
