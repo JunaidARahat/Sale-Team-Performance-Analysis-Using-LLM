@@ -3,7 +3,7 @@
 # Dataset Description
 
 ```bash
-The CSV data you've uploaded contains various columns related to sales performance. Here's a summary of the key columns:
+The Dataset contains various columns related to sales performance. Here's a summary of the key columns:
 
 employee_id: Unique identifier for each sales representative.
 employee_name: Name of the sales representative.
