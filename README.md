@@ -2,8 +2,9 @@
 
 # Dataset Description
 
+
 ```bash
-The Dataset contains various columns related to sales performance. Here's a summary of the key columns:
+The Dataset contains various columns related to sales performance. Here is a summary of the key columns:
 
 employee_id: Unique identifier for each sales representative.
 employee_name: Name of the sales representative.
@@ -20,7 +21,29 @@ This dataset includes detailed sales and communication performance metrics for e
 Target achievement: Using ratios like tours per lead or apps per tour.
 Growth trends: By comparing the performance across different time periods.
 ```
+# Key Observations
+```bash
+Leads and Tours: Each employee is tracked based on the number of leads they have taken (lead_taken) and how many tours they have booked (tours_booked).
 
+Example: Camilla Ali took 44 leads and booked 2 tours, while Maaz Brown took 27 leads and booked 1 tour.
+Performance Metrics:
+
+Tours Per Lead: This is calculated directly in the dataset as tours_per_lead, indicating the efficiency of converting leads into tours.
+Apps Per Tour: Similarly, apps_per_tour shows how effective tours are in converting to applications.
+Apps Per Lead: Shows how efficient the rep is in converting leads directly into applications, which is a key performance metric for lead quality.
+Calls and Texts: There are metrics for communication (both calls and texts) across each day of the week (fri_call, sat_call, etc.), which can give insights into communication patterns and how they might influence sales.
+
+For example, Camilla Ali made 13 calls on Sunday, which was her most active communication day, while Maaz Brown made only 3 calls on Friday and Saturday.
+Possible Insights and Calculations:
+Target Achievement: You can calculate target achievement by comparing applications or tours booked against leads taken.
+Sales Growth Trends: By tracking the performance metrics over multiple weeks or months, we can identify growth or decline patterns.
+Communication Patterns: The communication data across different days of the week can be correlated with sales metrics to see if higher engagement on certain days translates into better results.
+What’s Next?
+For a more in-depth analysis, we can:
+
+Preprocess the data to generate insights such as overall conversion rates, growth trends, and individual performance scores.
+Feed the summaries to the LLM to generate qualitative feedback, such as suggestions on improving sales strategy based on performance trends.
+```
 
 # How to run?
 ### STEPS:
