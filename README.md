@@ -51,7 +51,7 @@ Feed the summaries to the LLM to generate qualitative feedback, such as suggesti
 # Clone the repository
 
 ```bash
-Project repo: https://github.com/
+Project repo: https://github.com/JunaidARahat/Sale-Team-Performance-Analysis-Using-LLM.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
