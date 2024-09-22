@@ -77,11 +77,6 @@ OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
-```bash
-# perform EDA and Integrate LLM Model
-
-```
-
 Now,
 ```bash
 uvicorn app:app --reload

@@ -31,4 +31,3 @@ def summarize_by_employee(sales_data):
     return employee_summary
 
 employee_performance = summarize_by_employee(processed_data)
-
