@@ -44,6 +44,33 @@ For a more in-depth analysis, we can:
 Preprocess the data to generate insights such as overall conversion rates, growth trends, and individual performance scores.
 Feed the summaries to the LLM to generate qualitative feedback, such as suggestions on improving sales strategy based on performance trends.
 ```
+# Overview of the Sales Team Performance Analysis Project Using LLM
+```bash
+This project focuses on building a backend system that leverages a Large Language Model (LLM) to analyze sales performance data. The system is designed to provide qualitative and actionable insights into individual sales representatives and the overall team's performance, alongside forecasting sales trends. The project includes data ingestion, preprocessing, integration with an LLM, and the development of multiple RESTful API endpoints to provide performance feedback and sales analysis.
+```
+# Project Objectives:
+```bash
+Data Ingestion: Implement a mechanism to load and preprocess sales data from CSV (or JSON) files.
+LLM Integration: Utilize a Large Language Model (like GPT) to generate performance insights for individual sales representatives and the sales team as a whole.
+REST API Development: Develop multiple API endpoints to query individual and team performance, as well as provide trends and forecasting insights based on the data.
+Feedback Generation: Use the LLM to deliver actionable feedback, identify trends, and forecast future performance.
+```
+# Key Functionalities:
+```bash
+1. Data Preprocessing:
+
+Load and preprocess the sales data to calculate key performance indicators (KPIs), such as leads taken, tours booked, applications processed, and conversion rates.
+Convert the raw sales data into summaries by employee and overall team statistics.
+LLM Integration:
+
+2. Integrate a pre-trained Large Language Model (LLM) (such as GPT) to analyze the preprocessed data and generate feedback for each sales representative.
+Generate insights, comments, and qualitative performance feedback for individual sales representatives and teams.
+3. API Endpoints:
+
+/api/rep_performance: Fetch detailed performance feedback for a specific sales representative based on their ID.
+/api/team_performance: Provide a summary of the entire sales team's performance.
+/api/performance_trends: Analyze and forecast sales trends over a specified time period (monthly or quarterly).
+```
 
 # How to run?
 ### STEPS:
