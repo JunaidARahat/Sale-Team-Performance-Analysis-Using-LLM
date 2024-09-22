@@ -82,20 +82,15 @@ OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ```
 
-```bash
-# Finally run the following command
-python app.py
-```
-
 Now,
 ```bash
-uvicorn a pp:app --reload
+uvicorn app:app --reload
 ```
 
 
 ### Techstack Used:
 
 - Python
-- Fast API
+- FastAPI
 - GPT
--
+- PostMan

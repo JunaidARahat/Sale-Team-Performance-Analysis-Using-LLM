@@ -3,7 +3,7 @@
 import openai
 from src.preprocess.preprocessing import employee_performance
 
-openai.api_key = ""
+openai.api_key = "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"
 
 
 def get_feedback(text_summary):
