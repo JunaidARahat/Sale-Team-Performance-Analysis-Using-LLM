@@ -2,6 +2,8 @@ from fastapi import FastAPI, HTTPException
 from src.preprocess.preprocessing import load_sales_data, preprocess_data, summarize_by_employee
 from src.model.llm import generate_employee_feedback
 import pandas as pd
+import os
+import uvicorn
 
 app = FastAPI()
 
@@ -64,3 +66,7 @@ def performance_trends(time_period: str):
         return {"message": f"Sales trends for {time_period}", "trends": trends.to_dict(orient='records')}
     except Exception as e:
         return {"error": str(e)}
+
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8000))  # Default to 8000 if PORT is not set
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
