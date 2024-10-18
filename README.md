@@ -13,7 +13,7 @@ tours_booked: Number of tours booked.
 applications: Number of applications made.
 tours_per_lead: Ratio of tours booked per lead taken.
 apps_per_tour: Ratio of applications per tour booked.
-apps_per_lead: Ratio of applications per lead.
+apps_per_lead: Ratio of applications per leads.
 fri_call, sat_call, ... sun_call: Number of calls made on specific days of the week.
 fri_text, sat_text, ... sun_text: Number of texts sent on specific days of the week.
 This dataset includes detailed sales and communication performance metrics for each sales representative. It will allow you to calculate important metrics such as:
